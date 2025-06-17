@@ -23,7 +23,7 @@ const INTERESTS = [
   'Movies', 'Live Shows', 'Markets', 'Architecture', 'History'
 ];
 
-function App() {
+function Home() {
   const [userData, setUserData] = useState<UserData>({
     age: '',
     location: '',
@@ -374,4 +374,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
